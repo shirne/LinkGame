@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <config title="QQ头像" ico="config/qq.png">config/qq.xml</config>
+    <config title="爱心头像" ico="config/love.png">config/love.xml</config>
+    <config title="游戏头像" ico="config/game.png">config/game.xml</config>
+    <config title="生活表情" ico="config/life.png">config/life.xml</config>
+    <config title="星座头像" ico="config/constellation.png">config/constellation.xml</config>
+    <config title="风景头像" ico="config/scenery.png">config/scenery.xml</config>
+    <config title="黑底图标" ico="config/ico.png">config/ico.xml</config>
+    <width>550</width>
+    <height>420</height>
+    <scene>
+        <width>550</width>
+        <height>320</height>
+    </scene>
+    <help>
+        <item title="游戏说明">
+            <![CDATA[<h2>【游戏简介】</h2>
+<p>连连看游戏是将桌面上已有的图案按照相同配对的原则进行连接，并且要求连接的直线（只能横向或者纵向）不超过3条，是一种规则简单，上手快，但同时需要有比较强的空间想象力、灵敏的反应能力和较好的眼力相配合的益智型对战类绿色游戏。</p>
+<h2>【游戏规则】</h2>
+<dl>
+    <dt>游戏描述</dt>
+    <dd>本连连看游戏不同关卡采用向各个方向缩紧的方法来增加难度，缩紧方向有向内缩紧，向上、下、左、右四边缩紧。具体为：如果向上缩紧，则如果地图中间有图案连接成功消失后，下边的图案自动将消失后在上边的空间填补。</dd>
+    <dt>基本规则</dt>
+    <dd>操作：<br />
+        第一次使用鼠标点击游戏区域中的图案，该图案此时为“被选中”，以特殊方式显示；再次以鼠标点击其他图案，若该图案与被选中的图案相同，且把第一个图案到第二个图案连起来，中间的直线不超过 3 根，则消掉这一对图案，否则第一个图案恢复成未被选中状态，而第二颗图案变成被选中状态
+        普通游戏流程：<br />
+        1 ：点击第一选择对子。<br />
+        2 ：点击第二选择对子。<br />
+        3 ：如果 2 个对子符合连接条件，对子消除。如过不符合对子连接条件，切换到第二选择对子。<br />
+        消除卡片： 选择一对相同图案的卡片连接起来，连接路径在避开其他图片,并不超过两次转弯<br />
+        胜利条件：消除全部图案<br />
+        控制方法： 全程使用鼠标就可以完成游戏。<br />
+        道具设定：<br />
+        提示：提示出可连接图案，提示机会有限，过关越多，提示机会就越多，提示机会为0时没有效果。<br />
+        打乱：将游戏中的所有对子按现有位置重新排列一次。如果当前没有可连接的图案，则系统自动执行打乱，同时减去一次打乱机会，如果打乱机会为0，则游戏结束。</dd>
+</dl>
+]]>
+        </item>
+        <item title="新玩法">
+            <![CDATA[<h2>【拖动连子】</h2>
+<p>拖动一个图案到另一个相同的同案上，如果两个图案能连通，则两子消去。连通规则同上。</p>]]>
+        </item>
+    </help>
+    <levels>
+        <level>
+            <x>14</x>
+            <y>8</y>
+            <shapes>4</shapes>
+            <type>0</type>
+            <time>60</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第一关</stage>
+            <title>初试身手-无效果</title>
+        </level>
+        <level>
+            <x>14</x>
+            <y>8</y>
+            <shapes>4</shapes>
+            <type>1</type>
+            <time>80</time>
+            <tip>2</tip>
+            <sort>2</sort>
+            <stage>第二关</stage>
+            <title>渐入佳境-太空遨游</title>
+        </level>
+        <level>
+            <x>14</x>
+            <y>8</y>
+            <shapes>5</shapes>
+            <type>2</type>
+            <time>100</time>
+            <tip>2</tip>
+            <sort>2</sort>
+            <stage>第三关</stage>
+            <title>出手不凡-地心引力</title>
+        </level>
+        <level>
+            <x>14</x>
+            <y>8</y>
+            <shapes>5</shapes>
+            <type>3</type>
+            <time>100</time>
+            <tip>2</tip>
+            <sort>2</sort>
+            <stage>第四关</stage>
+            <title>过关斩将-坐等东风</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>6</shapes>
+            <type>4</type>
+            <time>120</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第五关</stage>
+            <title>妙手珠玑-西风禅林</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>6</shapes>
+            <type>5</type>
+            <time>120</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第六关</stage>
+            <title>经济危机-缩紧政策</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>6</shapes>
+            <type>6</type>
+            <time>120</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第七关</stage>
+            <title>成败萧何-空空荡荡</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>7</shapes>
+            <type>7</type>
+            <time>140</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第八关</stage>
+            <title>天清地浊-上浮下沉</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>8</shapes>
+            <type>8</type>
+            <time>160</time>
+            <tip>4</tip>
+            <sort>4</sort>
+            <stage>第九关</stage>
+            <title>乱世英雄-分道扬镳</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>8</shapes>
+            <type>9</type>
+            <time>160</time>
+            <tip>6</tip>
+            <sort>6</sort>
+            <stage>第十关</stage>
+            <title>南柯一梦-同床异梦</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>8</shapes>
+            <type>10</type>
+            <time>160</time>
+            <tip>6</tip>
+            <sort>6</sort>
+            <stage>第十一关</stage>
+            <title>登峰造极-君子存异</title>
+        </level>
+        <level>
+            <x>16</x>
+            <y>10</y>
+            <shapes>10</shapes>
+            <type>11</type>
+            <time>180</time>
+            <tip>6</tip>
+            <sort>6</sort>
+            <stage>第十二关</stage>
+            <title>东方不败-随机移动</title>
+        </level>
+    </levels>
+</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>love</type>
+        <number>46</number>
+		<file>love.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0xb22534</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>LoveSkin.swf</file>
+		<button>
+			<color>0xffe2ea</color>
+			<text>0xb22534</text>
+		</button>
+		<layer>
+			<color>0xffe2ea</color>
+			<alpha>.6</alpha>
+			<text>0xb22534</text>
+		</layer>
+	</skin>
+</data>

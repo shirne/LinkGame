@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>scenery</type>
+        <number>44</number>
+		<file>scenery.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0x37c0ec</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>ScenerySkin.swf</file>
+		<button>
+			<color>0x37c0ec</color>
+			<text>0xffffff</text>
+		</button>
+		<layer>
+			<color>0x72e5f8</color>
+			<alpha>.6</alpha>
+			<text>0x628103</text>
+		</layer>
+	</skin>
+</data>

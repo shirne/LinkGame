@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+		<radius>15</radius>
+        <folder>Skin</folder>
+        <type>qq</type>
+        <number>54</number>
+		<file>qq.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0xffffff</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>Skin.swf</file>
+		<button>
+			<color>0x009cff</color>
+			<text>0xffffff</text>
+		</button>
+		<layer>
+			<color>0xffffff</color>
+			<alpha>.6</alpha>
+			<text>0x333333</text>
+		</layer>
+	</skin>
+</data>

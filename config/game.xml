@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>game</type>
+        <number>50</number>
+		<file>game.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0x8fff75</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>GameSkin.swf</file>
+		<button>
+			<color>0x816510</color>
+			<text>0xffffff</text>
+		</button>
+		<layer>
+			<color>0xcaae57</color>
+			<alpha>.6</alpha>
+			<text>0x333333</text>
+		</layer>
+	</skin>
+</data>

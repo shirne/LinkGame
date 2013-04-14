@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>life</type>
+        <number>50</number>
+		<file>life.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0xeb5a04</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>LifeSkin.swf</file>
+		<button>
+			<color>0xcacaca</color>
+			<text>0xeb5a04</text>
+		</button>
+		<layer>
+			<color>0xcacaca</color>
+			<alpha>.4</alpha>
+			<text>0xeb5a04</text>
+		</layer>
+	</skin>
+</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>constellation</type>
+        <number>46</number>
+		<file>constellation.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0xffffff</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>ConstellationSkin.swf</file>
+		<button>
+			<color>0x009cff</color>
+			<text>0xffffff</text>
+		</button>
+		<layer>
+			<color>0xffffff</color>
+			<alpha>.6</alpha>
+			<text>0x333333</text>
+		</layer>
+	</skin>
+</data>

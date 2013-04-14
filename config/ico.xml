@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <shape>
+        <folder>Skin</folder>
+        <type>ico</type>
+        <number>42</number>
+		<file>ico.swf</file>
+		<width>40</width>
+		<height>40</height>
+		<activeColor>0x38f452</activeColor>
+    </shape>
+	<skin>
+		<folder>Skin</folder>
+		<file>Skin.swf</file>
+		<button>
+			<color>0xcd4207</color>
+			<text>0xffffff</text>
+		</button>
+		<layer>
+			<color>0xcd4207</color>
+			<alpha>.6</alpha>
+			<text>0xffffff</text>
+		</layer>
+	</skin>
+</data>
